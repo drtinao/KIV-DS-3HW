@@ -15,9 +15,9 @@ Architekturu systému popisuje následující diagram.
 - v rámci jednoho clusteru existují v množství 3-6
 - využití open-source MQTT brokera Mosquitto + program v Pythonu
 - zařizuje předávání zpráv mezi jednotlivými brokery
-- stará se o registraci v rámci Apache ZooKeepr
+- stará se o registraci v rámci Apache ZooKeeper
 
-#### ZooKeeper node ####
+#### ZooKeeper ####
 - v rámci jednoho clusteru existují ve fixním množství 3
 - instance open-source Apache ZooKeeper (řízení distribuovaných uzlů)
 
