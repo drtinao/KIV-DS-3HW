@@ -6,9 +6,10 @@ Předmětem kapitol níže je popis systému jakožto celku.
 1.a) Diagram
 
 Architekturu systému popisuje následující diagram.
+
 ![Alt text](./whole_sys_architecture.png "Architektura systému - diagram")
 
-1.b) Vysvětlivky k entitám diagramu
+1.b) Popis entit diagramu
 
 #### MQTT broker ####
 - v rámci jednoho clusteru existují v množství 3-6
@@ -32,9 +33,10 @@ Následující kapitoly charakterizují skladbu jmenného prostoru ZooKeeperu.
 2.a) Diagram
 
 Diagram jmenného prostoru je vidět níže.
+
 ![Alt text](./namespace.png "Jmenný prostor - diagram")
 
-2.b) Vysvětlivky k entitám diagramu
+2.b) Popis entit diagramu
 
 #### <CLUSTER_NUM> ####
 - uzel typu normal / sequential
@@ -45,3 +47,10 @@ Diagram jmenného prostoru je vidět níže.
 - uzel typu normal / sequential
 - uzly tohoto názvu jsou podmnožinou <CLUSTER_NUM>
 - NUM bude nahrazeno pořadím, ve kterém byl uzel vytvořen (proto sequential)
+
+3) Vysvětlivky barev v diagramech
+
+#### modrá ####
+- značí cluster (= položky stejného druhu, jež mohou mít odlišné vlastnosti)
+#### purpurová ####
+- značí poslední možnou instanci v clusteru
